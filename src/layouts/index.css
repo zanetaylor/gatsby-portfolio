@@ -1,0 +1,9 @@
+.Projects {
+  max-width: 960px;
+  margin: 50px 40px 100px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 40px;
+  align-items: center;
+  /* justify-items: center; */
+}

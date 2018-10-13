@@ -1,0 +1,11 @@
+.Card {
+  position: relative;
+  background: #ddd;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.Card p {
+  align-self: end;
+}
