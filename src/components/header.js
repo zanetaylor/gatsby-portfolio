@@ -3,9 +3,9 @@ import Link from 'gatsby-link'
 import './header.css'
 
 const Header = ({ siteTitle }) => (
-  <div className="Header">
-    Header
-  </div>
+  <header className="Header">
+    <a href="/">Title</a>
+  </header>
 )
 
 export default Header

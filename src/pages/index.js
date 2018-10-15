@@ -11,7 +11,6 @@ const IndexPage = ({ data }) => (
         <h1>Portfolio</h1>
       </div>
     </div>
-    <h1>All the projects</h1>
     <div className="Projects">
       {data.allContentfulProject.edges.map(edge => (
       <Card title={edge.node.title} summary={edge.node.summary} />
