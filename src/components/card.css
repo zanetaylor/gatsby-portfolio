@@ -1,11 +1,13 @@
 .Card {
   position: relative;
-  background: #ddd;
-
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+  background: #fff;
+  padding: 20%;
+  height: 240px;
+  box-shadow: #444 10px 10px 0 0;
+  /* display: grid;
+  grid-template-rows: 1fr 1fr; */
 }
 
 .Card p {
-  align-self: end;
+  /* align-self: end; */
 }
