@@ -12,6 +12,12 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-remark',
     {
+      resolve: 'gatsby-plugin-typography',
+      options: {
+        pathToConfigModule: 'src/utils/typography.js',
+      },
+    },
+    {
       resolve: 'gatsby-source-contentful',
       options: {
         spaceId: process.env.SPACE_ID,
